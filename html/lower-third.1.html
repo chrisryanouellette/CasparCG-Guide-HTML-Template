@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!-- lower-third.1.html -->
+
+<!--Full graphic guide at
+    https://app.gitbook.com/@chrisryanouellette/s/casparcg-html-template-guide
+    Breaks down each section of code and lists all the necessary resouces
+    to understand them.
+    CasparCG Forum:  https://casparcgforum.org/
+    CasparCG Wiki: https://github.com/CasparCG/help/wiki
+-->
+<html class="no-js">
+    <head>
+        <meta charset="utf-8">
+        <title>Lower Third 1</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../css/lower-third.1.css">
+    </head>
+    <body>
+        <main class="lt-style-one">
+            <div class="graphic" style="opacity: 0;">
+                <svg viewbox="0 0 100 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg">
+                    <path vector-effect="non-scaling-stroke" d="M50 100 H0 V0 H50" />
+                    <path vector-effect="non-scaling-stroke" d="M50 100 H100 V0 H50" />
+                </svg>
+                <h1>Some text</h1>
+                <div class="subtitle">
+                    <p>Subtitle</p>
+                </div>
+            </div>
+        </main>
+        <script src="../node_modules/gsap/dist/gsap.js"></script>
+        <script src="../js/lower-third.1.js"></script>
+        <script src="../js/dev.js"></script>
+    </body>
+</html>

@@ -1,0 +1,32 @@
+{
+  "name": "casparcg-guide-html-template",
+  "version": "0.0.1",
+  "description": "The HTML template built in the CasparCG Guide for Graphics",
+  "main": "index.js",
+  "scripts": {
+    "http-server": "http-server -p8080 -c-1",
+    "scss": "sass --watch scss:css"
+  },
+  "author": "Christopher Ouellette",
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.12.1",
+    "sass": "^1.26.2"
+  },
+  "dependencies": {
+    "gsap": "^3.2.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chrisryanouellette/casparcg-guide-html-template.git"
+  },
+  "keywords": [
+    "casparcg",
+    "html",
+    "template"
+  ],
+  "bugs": {
+    "url": "https://github.com/chrisryanouellette/casparcg-guide-html-template/issues"
+  },
+  "homepage": "https://github.com/chrisryanouellette/casparcg-guide-html-template#readme"
+}
