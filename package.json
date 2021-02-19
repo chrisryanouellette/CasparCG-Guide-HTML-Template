@@ -14,7 +14,7 @@
     "sass": "^1.26.2"
   },
   "dependencies": {
-    "gsap": "^3.2.4"
+    "gsap": "^3.6.0"
   },
   "repository": {
     "type": "git",
