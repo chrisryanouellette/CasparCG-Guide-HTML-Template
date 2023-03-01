@@ -10,7 +10,7 @@
   "author": "Christopher Ouellette",
   "license": "MIT",
   "devDependencies": {
-    "http-server": "^0.12.1",
+    "http-server": "^0.12.3",
     "sass": "^1.26.2"
   },
   "dependencies": {
